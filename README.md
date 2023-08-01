@@ -39,6 +39,12 @@ This annotation is used to automatically assign values to the primary key.
 @RepositoryRestResource 
 
 This annotation is used to create repository rest resource and provide basic crud operation functionality. This sets up data rest.
+If tomcat starts on port 8080
+GET
+URL - localhost:8080/aliens
+POST, PUT, DELETE
+URL- localhost:8080/alien
+
 
 
 
